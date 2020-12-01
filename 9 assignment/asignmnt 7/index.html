@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="new" placeholder="enter number">
+    <button type="submit" onclick="factorial()">check</button>
+
+    <script>
+        function factorial(){
+    //base case
+    let i = 0
+    if(i == 0 || i == 1){
+        return 1;
+    //recursive case
+    }else{
+        return i * factorial(i-1);
+    }
+}
+// let n = 7;
+// answer = factorial(n)
+alert("The factorial of " + i + " is " + answer);
+    </script>
+</body>
+</html>
